@@ -1,3 +1,3 @@
 # JavaOOP
 
-## OOP Class(Java) All Assignments and Task Repo
+## OOP Class(Java) All Assignments and Tasks Repo
