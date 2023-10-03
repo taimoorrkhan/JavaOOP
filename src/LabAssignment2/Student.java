@@ -16,10 +16,11 @@ public class Student{
         this.address=address;
     }
      public void displayInfo(){
-         System.out.printf("\n" +
-                 "Name: %s\n" +
-                    "Age: %d\n" +
-                    "Address: %s\n",name,age,address);
+         System.out.printf("""
+                 Name: %s
+                 Age: %d
+                 Address: %s
+                 """,name,age,address);
             System.out.println("--------------------------");
 }
 
@@ -44,9 +45,9 @@ public class Student{
                 students[i].setInfo(studentData[i][0],Integer.parseInt(studentData[i][1]),studentData[i][2]);
             }
 
-            for(int i=0;i<students.length;i++){
-                students[i].displayInfo();
-            }
+          for (Student student : students) {
+              student.displayInfo();
+          }
  
       }
      }
