@@ -5,12 +5,8 @@ public class Student{
     private int age;
     private String address;
 
-    
-    public void setInfo(String name,int age){
-        this.name=name;
-        this.age=age;
-    }
-     public void setInfo(String name,int age,String address){
+
+    public void setInfo(String name,int age,String address){
         this.name=name;
         this.age=age;
         this.address=address;
